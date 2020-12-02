@@ -1,0 +1,180 @@
+/* ~~~ Global Styles ~~~*/
+
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background: #faf9f9;
+}
+
+h1,
+h2,
+p {
+    margin-top: 0;
+}
+
+/* ~~~ Typography ~~~ */
+
+h1 {
+    font-size: 2.5rem;
+    color: #a1c45a;
+    margin: 0;
+}
+
+.subtitle {
+    margin-bottom: 0;
+}
+
+
+h2 {
+    font-size: 1.7rem;
+    color: #494949;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #494949;
+    
+}
+
+p {
+    font-weight: 300;
+}
+
+/* ~~~~ Layout ~~~~ */
+
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+
+header {
+    background: #faf6e9;
+    padding: 1.5em 0;
+}
+
+
+
+/* ~~~~ Navigation ~~~~ */
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+nav li {
+    margin-left: 2em;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #494949;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #5ea3a3;
+
+}
+
+
+
+
+/* ~~~~ Main Sections ~~~~ */
+
+
+.section-container {
+    width: 60%;
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: .7em 1.5em;
+    text-decoration: none;
+
+}
+
+.btn-info {
+    background: black;
+    color: white;
+    margin-top: 1em;
+}
+
+.btn-info:hover,
+.btn-info:focus {
+    background: #5ea3a3;
+}
+
+/* ~~~~ Testimonials ~~~~ */
+
+.reviews-section {
+    background: #a1c45a;
+}
+
+.reviews-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.review-card {
+    width: 30%;
+}
+
+.review-underline {
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
+
+/* ~~~~ Footer ~~~~ */
+
+footer {
+    text-align: center;
+    padding: 1em;
+}
+
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer li {
+    padding: 0 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+    color: #5ea3a3;
+}
+
+
+
+
